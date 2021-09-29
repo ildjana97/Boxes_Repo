@@ -1,0 +1,57 @@
+.boxes-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 200px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  width: 80px;
+  margin: 2px;
+  background-color: #bcdadd;
+}
+
+.box1 {
+  height: 100px;
+}
+.box2 {
+  height: 150px;
+}
+.box3 {
+  height: 200px;
+}
+.box4 {
+  height: 250px;
+}
+.box5 {
+  height: 300px;
+}
+
+.btn-increment,
+.btn-decrement {
+  margin: 10px;
+  padding: 20px;
+}
+
+.Plus {
+  background-image: url(../images/plus.png);
+}
+.Minus {
+  background-image: url(../images/minus.png);
+}
