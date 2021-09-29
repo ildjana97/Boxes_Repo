@@ -24,7 +24,24 @@
 .box5 {
   width: 80px;
   margin: 2px;
+  position: relative;
   background-color: #bcdadd;
+}
+
+.nr {
+  border-radius: 50%;
+  background-color: yellow;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  position: ABSOLUTE;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .box1 {
